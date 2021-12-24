@@ -8,7 +8,11 @@
 In your `Package.swift` file, add the following
 
 ```swift
-.package(url: "https://github.com/h2glab/firebase-provider.git", from: "0.0.1")
+.package(
+    name: "firebase-provider",
+    url: "https://github.com/Mobinergy/swift-firebase-provider.git",
+    from: "0.0.1"
+)
 ```
 
 Register the config and the provider to your Application
